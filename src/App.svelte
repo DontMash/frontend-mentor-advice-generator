@@ -63,17 +63,15 @@
         height="16"
       />
     </picture>
-    <button
-      class="absolute left-1/2 bottom-0 -translate-x-1/2 translate-y-1/2"
-      on:click={(event) => rollDice()}
-    >
-      <div
+    <div class="absolute left-1/2 bottom-0 -translate-x-1/2 translate-y-1/2">
+      <button
+        on:click={(event) => rollDice()}
         class="p-4 rounded-full bg-neon-green transition-all hover:shadow-neon-green hover:shadow-glow hover:scale-105 motion-safe:animate-pop"
       >
         <span class="sr-only">Generate advice</span>
         <IconDice />
-      </div>
-    </button>
+      </button>
+    </div>
   </article>
 </main>
 <Footer />
