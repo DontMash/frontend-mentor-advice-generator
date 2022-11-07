@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Manrope';
+    src: url('/fonts/Manrope/static/Manrope-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  :root {
+    @apply bg-dark-blue font-manrope text-light-cyan;
+  }
+}
